@@ -1,0 +1,17 @@
+﻿@model List<string>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Data Server</title>
+</head>
+<body>
+    <p>Data Server is running...</p>
+
+    @foreach (var state in Model)
+    {
+        <p>@state</p>
+    }
+</body>
+</html>
